@@ -1,6 +1,6 @@
 if ('serviceWorker' in navigator) {
   window.addEventListener('load', function() {
-      navigator.serviceWorker.register('https://raw.githubusercontent.com/gamenewsmaniaweb/java/main/sw.js')
+      navigator.serviceWorker.register('https://combinatronics.io/gamenewsmaniaweb/java/main/sw.js')
             .then(reg => {
                     console.log('Service worker registered! ðŸ˜Ž', reg);
                           })
